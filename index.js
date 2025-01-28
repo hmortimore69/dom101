@@ -11,3 +11,6 @@
 'use strict';
 
 // add your functions here
+function replaceText(elem, str) {
+    elem.textContent = str;
+}
