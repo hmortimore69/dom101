@@ -30,6 +30,7 @@ function addTextTo(elem, str) {
     Description: This function updates the src, alt, and title, of the animals element. 
 */
 function moreBears() {
+    const animals = document.querySelector("#animals");
     animals.src = "http://placebear.com/400/200";
     animals.alt = "A bear.";
     animals.title = "A BEAR!";
